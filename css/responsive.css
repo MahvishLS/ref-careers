@@ -838,21 +838,16 @@
     margin-bottom: 15px;
   }
 
+  .single-job-post .job-inner{
+    display: block;
+  }
+
   .single-job-post .job-inner .salary-box{
     width: 100%;
-    margin-top: 0px;
+    margin-left: 13px;
+    margin-top: 20px;
     margin-bottom: 15px;
-  }
-
-  .single-job-post .job-inner .experience-box{
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 15px;
-  }
-
-  .single-job-post .job-inner .apply-btn{
-    width: 100%;
-    text-align: left;
+    position: relative;
   }
 
   .single-job-post .job-title:before,
