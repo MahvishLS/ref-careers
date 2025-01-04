@@ -20,162 +20,8 @@
 
 
 
-@media only screen and (max-width: 1749px){
-
-  .main-header .header-top .location-box{
-    border-left: none;
-    border-right: none;
-  }
-
-  .main-header .header-top .right-info{
-    width: 100%;
-  }
-
-  .main-header .outer-box{
-    position: relative;
-  }
-
-  .main-header .outer-box .menu-area{
-    float: none;
-    display: block;
-    text-align: center;
-  }
-
-  .main-header .logo-box{
-    float: none;
-    margin-right: 0px;
-    border-radius: 0px;
-  }
-
-  .main-header .menu-right-content{
-    position: absolute;
-    right: 0px;
-    top: 21px;
-    margin: 0px;
-  }
-
-  .main-header .sticky-header .menu-right-content{
-    position: relative;
-    top: 0px;
-  }
-
-  .main-header .main-menu{
-    max-width: 920px;
-    margin: 0 auto;
-    float: none;
-  }
-
-  .main-header.onepage .main-menu{
-    max-width: 650px;
-  }
-
-  .main-header .logo-box{
-    text-align: left;
-  }
-
-  .main-header .menu-right-content .theme-btn-one{
-    background: #ff5956;
-  }
-
-  .main-header .menu-right-content .theme-btn-one:hover{
-    color: #ff5956 !important;
-  }
-
-  .main-header .menu-right-content .theme-btn-one:after{
-    background: #fff;
-  }
-
-  .main-header .menu-right-content .search-btn button{
-    color: #fff
-  }
-
-  .main-header .menu-right-content .search-btn button:hover{
-    color: #ff5956 !important;
-  }
-
-  .main-header .sticky-header .menu-right-content .search-btn button{
-    color: #000
-  }
-
-  .sticky-header .logo-box{
-    display: none;
-  }
-
-  .main-header .sticky-header .outer-box .menu-area{
-    float: left;
-    padding-left: 50px;
-  }
-
-  .main-header.style-two .sticky-header .menu-right-content .search-btn button{
-    color: #fff;
-  }
-
-  .main-header.style-three .header-lower .outer-box .menu-area{
-    width: 100%;
-  }
-
-  .banner-section.style-three .mail-box{
-    display: none;
-  }
-
-  .main-header.style-three .sticky-header .menu-right-content .search-btn button{
-    color: #fff;
-  }
-
-  .rtl .main-header .logo-box {
-    float: none !important;
-    margin-right: 0px;
-    margin-left: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    padding-right: 0px;
-    padding-left: 50px;
-  }
-
-  .rtl .main-header .menu-right-content{
-    float: none;
-    padding-right: 50px;
-  }
-
-  .rtl .menu-area .main-menu{
-    float: none;
-  }
-
-
-}
-
-
 @media only screen and (max-width: 1399px){
 
-  .main-header .header-top .location-box .location-carousel{
-    padding-right: 0px;
-  }
-
-  .rtl .main-header .header-top .location-box .location-carousel{
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .main-header .header-top .location-box{
-    max-width: 770px;
-    margin: 0 auto;
-  }
-
-  .main-header .header-top .top-inner{
-    display: block;
-  }
-
-  .main-header .header-top .left-info{
-    text-align: center;
-  }
-
-  .main-header .sticky-header .menu-right-content{
-    display: none;
-  }
-
-  .main-header .sticky-header .outer-box .menu-area{
-    float: none;
-  }
 
   #content_block_4 .content-box .inner-box .single-item .inner .icon-box{
     position: relative;
@@ -191,14 +37,6 @@
     padding-right: 0px;
   }
 
-  .rtl .main-header .header-top .location-box{
-    max-width: 800px;
-  }
-
-  .history-section .image-layer{
-    display: none;
-  }
-
 
 }
 
@@ -206,13 +44,6 @@
 
 @media only screen and (max-width: 1200px){
 
-  .banner-carousel .slide-item.style-two .content-box{
-    padding-left: 0px;
-  }
-
-  .banner-section.style-one .banner-carousel .slide-item{
-    min-height: auto;
-  }
 
   #content_block_1 .content-box .tab-btns li{
     display: block;
@@ -225,22 +56,7 @@
     margin-bottom: 0px;
   }
 
-  #content_block_3 .content-box .author-info .signature{
-    position: relative;
-    display: block;
-    margin-top: 20px;
-    right: 0px;
-  }
-
-  .about-section #content_block_3 .content-box{
-    padding-right: 30px;
-  }
-
-  .industries-section .tabs-content{
-    margin: 0px;
-    margin-top: 30px;
-  }
-
+ 
   .testimonial-block-one .inner-box .border-shap{
     display: none;
   }
@@ -315,54 +131,7 @@
     left: 30px;
   }
 
-  .about-style-three .image-layer{
-    display: none;
-  }
-
-  .process-style-two .single-item .inner-box{
-    padding-left: 0px;
-    padding-right: 15px;
-  }
-
-  .testimonial-block-three .inner-box .border-shap{
-    display: none;
-  }
-
-  .rtl .about-section #content_block_3 .content-box{
-    padding-left: 30px;
-  }
-
-  .rtl .industries-section .tabs-content{
-    margin: 0px;
-    margin-top: 30px;
-  }
-
-  .process-style-two .single-column:first-child .single-item .inner-box{
-    padding-left: 30px;
-  }
-
-  .growth-section .image-box{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .hiring-section .image-layer{
-    display: none;
-  }
-
-  .hiring-section .left-column .inner-box,
-  .hiring-section .right-column .inner-box{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .service-sidebar .subscribe-widget .subscribe-form button{
-    padding: 15px 25px;
-  }
-
-  .growth-style-two .inner-column .text{
-    margin-left: 30px;
-  }
+ 
 
   .job-details-content .social-box .social-links li{
     margin: 0px 5px;
@@ -375,40 +144,6 @@
 
   .job-details-content .social-box .social-links li a{
     width: 100%;
-  }
-
-  .blog-details-content .post-share-option .social-box .social-links li{
-    margin: 0px 5px;
-    margin-bottom: 10px;
-  }
-
-  .blog-details-content .post-share-option .social-box .social-links li a{
-    width: 100%;
-  }
-
-  .blog-details-content .post-share-option .social-box .social-links{
-    margin-right: 0px;
-  }
-
-  .blog-details-content .nav-btn-box .right-btn{
-    padding: 21px 60px 23px 30px;
-  }
-
-  .blog-details-content .nav-btn-box .left-btn {
-    padding: 21px 30px 23px 60px;
-  }
-
-  .project-block-two .inner-box .content-box .text h3{
-    font-size: 18px;
-    line-height: 26px;
-  }
-
-  .protfolio-page .project-block-one .inner-box .content-box{
-    padding: 15px 15px;
-  }
-
-  .portfolio-wide-2 .masonry-item{
-    width: 25%;
   }
 
   .single-job-post .job-title{
@@ -530,9 +265,6 @@
     margin: 0 auto;
   }
 
-  .about-section #content_block_3 .content-box{
-    padding-left: 30px;
-  }
 
   .recruitment-technology .image-box{
     margin: 0px;
@@ -544,9 +276,7 @@
     height: max-content;
   }
 
-  .industries-section .tabs-content .inner-box .content-box{
-    padding: 0px 30px;
-  }
+  
 
   .process-block-one .inner-box:before{
     display: none;
@@ -652,9 +382,14 @@
     margin-right: 0px;
     margin-bottom: 40px;
   }
+  .chooseus-block-one{
+    margin-bottom: 25px;
+    height: 200px;
+  }
 
   .chooseus-block-one .inner-box{
     margin-bottom: 30px;
+    height: 200px;
   }
 
   .chooseus-section{
@@ -777,9 +512,7 @@
     margin: 0 auto;
   }
 
-  .rtl .about-section #content_block_3 .content-box{
-    padding-right: 30px;
-  }
+
 
   .process-style-two .single-column:first-child .single-item .inner-box:after{
     display: none;
@@ -947,10 +680,6 @@
     padding: 70px 0px;
   }
 
-  .about-section #content_block_3 .content-box{
-    padding: 60px 30px;
-  }
-
   .service-section .pattern-layer,
   .service-section .anim-icon{
     display: none;
@@ -977,10 +706,6 @@
 
   .recruitment-technology,{
     padding: 70px 0px 40px 0px;
-  }
-
-  .industries-section{
-    padding: 70px 0px;
   }
 
   .process-section{
@@ -1426,21 +1151,6 @@
   #content_block_1 .content-box .inner-box .list li:last-child{
     margin-bottom: 0px;
   }
-
-  #content_block_3 .content-box .author-text h3{
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  .industries-section .tabs-content .inner-box .content-box .text{
-    margin-right: 0px;
-  }
-
-  .industries-section .tabs-content .inner-box .content-box .text h2{
-    font-size: 30px;
-    line-height: 38px;
-  }
-
   .testimonial-style-two .testimonial-block-two{
     margin: 0px;
   }
@@ -1489,10 +1199,6 @@
     padding: 0px;
   }
 
-  .rtl .industries-section .tabs-content .inner-box .content-box .text{
-    margin-left: 0px;
-  }
-
 }
 
 
@@ -1506,10 +1212,7 @@
     padding: 0px 15px;
   }
 
-  .industries-section .tabs-content .inner-box .content-box{
-    position: relative;
-    padding: 0px;
-  }
+
 
   .search-popup .search-form fieldset input[type="submit"]{
     position: relative;
