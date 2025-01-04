@@ -419,6 +419,10 @@
     width: 30%;
   }
 
+  #content_block_5 .content-box .inner-box .single-item{
+    height: 320px;
+  }
+
 
 }
 
@@ -533,6 +537,11 @@
   .recruitment-technology .image-box{
     margin: 0px;
     margin-bottom: 50px;
+  }
+
+  #content_block_5 .content-box .inner-box .single-item{
+    width: 100%;
+    height: max-content;
   }
 
   .industries-section .tabs-content .inner-box .content-box{
