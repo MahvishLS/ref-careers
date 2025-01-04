@@ -512,22 +512,7 @@
     margin: 0 auto;
   }
 
-
-
   .process-style-two .single-column:first-child .single-item .inner-box:after{
-    display: none;
-  }
-
-  .history-section .inner-box{
-    padding: 0px !important;
-    max-width: 350px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-
-  .history-section .inner-box:before,
-  .history-section .inner-box:after,
-  .history-section .inner-box .dots-box{
     display: none;
   }
 
@@ -798,26 +783,7 @@
     padding: 70px 0px;
   }
 
-  .clients-style-two .title-inner h2{
-    font-size: 36px;
-    line-height: 44px;
-  }
 
-  .clients-style-two .title-inner{
-    margin-bottom: 50px;
-  }
-
-  .clients-style-two{
-    padding: 70px 0px;
-  }
-
-  .contactinfo-section .image-column{
-    display: none;
-  }
-
-  .contactinfo-section{
-    padding-top: 70px;
-  }
 
   .main-footer.style-two .footer-top{
     padding: 70px 0px 40px 0px;
@@ -829,18 +795,6 @@
     text-align: center;
   }
 
-  .banner-section.style-three .slide-item{
-    padding: 220px 0px 100px 0px;
-  }
-
-  .banner-section.style-three .banner-carousel .content-box h1{
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .about-style-three{
-    padding: 70px 0px;
-  }
 
   .chooseus-section .title-inner .sec-title, .chooseus-section .title-inner .text{
     float: none;
@@ -968,17 +922,7 @@
     padding: 70px 0px;
   }
 
-  .clients-style-three .clients-inner{
-    padding: 0px;
-  }
 
-  .clients-style-three{
-    padding: 70px 0px 40px 0px;
-  }
-
-  .testimonial-page-section{
-    padding-bottom: 20px;
-  }
 
   .service-section.service-page .service-block-one{
     max-width: 400px;
