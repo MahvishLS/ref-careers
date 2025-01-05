@@ -141,7 +141,6 @@
 
 .navbar {
     background-color: white;
-    margin: 10px;
 }
 
 .dropdown-item:hover,
@@ -529,7 +528,7 @@ Home Page 1 Css Start
     }
 
     .navbar {
-        padding: 0
+        padding: 10px 30px;
     }
 
     .header-5 .navbar-nav .nav-link {
@@ -653,6 +652,10 @@ Home Page 1 Css Start
         padding: 0
     }
 
+    .navbar-header{
+        padding-bottom: 20px;
+    }
+
     /*From Bootstrap*/
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
@@ -739,6 +742,12 @@ Home Page 1 Css Start
     padding-top: 80px;
 }
 
+.copyright-3 {
+    background-color: var(--bg-dark) !important;
+}
+
+
+
 .text-white {
     color: white !important;
 }
@@ -757,6 +766,17 @@ Home Page 1 Css Start
     padding-bottom: 20px;
 }
 
+footer h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.down-line-left {
+    padding-bottom: 15px;
+}
+[class*="-line"], [class*="overlay-"] {
+    position: relative;
+}
+
 .footer-widget li a{
     color: white;
 }
@@ -765,4 +785,21 @@ Home Page 1 Css Start
     text-align: center;
     font-size: 16px;
     line-height: 45px;
+    color: white;
 }
+
+.social-media{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.d-table{
+    display: table;
+}
+

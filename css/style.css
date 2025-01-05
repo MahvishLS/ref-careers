@@ -74,7 +74,7 @@ body {
   line-height:28px;
   font-weight:400;
   background:#ffffff;
-  font-family: 'Muli', sans-serif;
+ font-family: "Montserrat", serif;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -135,7 +135,7 @@ a:hover{
 }
 
 input,button,select,textarea{
-  font-family: 'Muli', sans-serif;
+ font-family: "Montserrat", serif;
   font-weight: 400;
   font-size: 15px;
   color: #555;
@@ -163,7 +163,7 @@ p{
   position: relative;
   font-size: 15px;
   line-height: 28px;
-  font-family: 'Muli', sans-serif;
+ font-family: "Montserrat", serif;
   font-weight: 400;
   color: #766068;
   margin: 0px;
@@ -172,11 +172,15 @@ p{
 
 h1,h2,h3,h4,h5,h6{
   position:relative;
-  font-family: 'Nunito Sans', sans-serif;
+  
   font-weight: 400;
   color: var(--bg-dark);
   margin: 0px;
   transition: all 500ms ease;
+}
+
+h2{
+  font-family: "Oleo Script", serif;
 }
 
 /* Preloader */
@@ -288,7 +292,7 @@ img {
   display: inline-block;
   font-size: 14px;
   line-height: 26px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   color: #fff !important;
   border-radius: 4px;
@@ -332,7 +336,7 @@ img {
   display: inline-block;
   font-size: 14px;
   line-height: 26px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   color: #fff !important;
   border-radius: 4px;
@@ -390,7 +394,7 @@ img {
   position: relative;
   display: inline-block;
   font-size: 20px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Oleo Script", serif;
   font-weight: 700;
   height: 50px;
   width: 50px;
@@ -431,7 +435,7 @@ img {
   right: 40px;
   font-size: 14px;
   font-weight: 700;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Oleo Script", serif;
   z-index: 99;
   color: #ffffff;
   background: #3e252d;
@@ -470,7 +474,7 @@ img {
   display: inline-block;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Muli', sans-serif;
+ font-family: "Montserrat", serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -713,7 +717,7 @@ img {
   display: inline-block;
   font-size: 14px;
   line-height: 26px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   color: var(--bg-dark);
   text-transform: uppercase;
@@ -1037,7 +1041,7 @@ img {
   line-height: 60px;
   background: #fff;
   font-size: 20px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Oleo Script", serif;
   font-weight: 700;
   text-align: center;
   border-radius: 50%;
@@ -1064,7 +1068,7 @@ img {
   display: inline-block;
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1424,7 +1428,7 @@ img {
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Muli', sans-serif;
+ font-family: "Montserrat", serif;
   font-weight: 700;
   color: #a38f96;
   text-transform: uppercase;
@@ -1439,261 +1443,6 @@ img {
   margin-bottom: 27px;
 }
 
-/** main-footer **/
-
-.main-footer{
-  position: relative;
-}
-
-.footer-top{
-  position: relative;
-  padding: 124px 0px 80px 0px;
-}
-
-.footer-top .footer-widget .widget-title{
-  position: relative;
-  display: block;
-  margin-bottom: 25px;
-}
-
-.footer-top .footer-widget .widget-title h3{
-  position: relative;
-  font-size: 22px;
-  line-height: 30px;
-  color: #fff;
-  font-weight: 700;
-}
-
-.footer-top .about-widget .text p{
-  font-size: 17px;
-  line-height: 28px;
-  color: #ae979f;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
-.footer-top .about-widget .text p:last-child{
-  line-height: 30px;
-  margin: 0px;
-}
-
-.footer-top .about-widget .text{
-  margin-bottom: 24px;
-}
-
-.footer-top .about-widget .text p i{
-  position: relative;
-  display: inline-block;
-  font-size: 14px;
-  transform: rotate(20deg);
-}
-
-.footer-top .about-widget{
-  margin-right: 50px;
-}
-
-.footer-top .about-widget .social-links li{
-  position: relative;
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.footer-top .about-widget .social-links li:last-child{
-  margin-right: 0px;
-}
-
-.footer-top .about-widget .social-links li h5{
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.footer-top .about-widget .social-links li a{
-  position: relative;
-  display: inline-block;
-  font-size: 14px;
-  color: #fff;
-}
-
-.footer-top .links-widget .links-list li{
-  position: relative;
-  display: block;
-  width: 50%;
-  float: left;
-  margin-bottom: 15px;
-}
-
-.footer-top .links-widget .links-list li a{
-  position: relative;
-  display: inline-block;
-  font-size: 17px;
-  line-height: 28px;
-  color: #ae979f;
-  font-weight: 500;
-}
-
-.footer-top .links-widget .links-list li a:hover{
-
-}
-
-.footer-top .contact-widget .info-box li{
-  position: relative;
-  display: block;
-}
-
-.footer-top .contact-widget .info-box li a{
-  position: relative;
-  display: inline-block;
-  font-size: 17px;
-  line-height: 28px;
-  color: #ae979f;
-  font-weight: 500;
-}
-
-.footer-top .contact-widget .info-box li a:hover{
-
-}
-
-.footer-top .contact-widget .single-info-box{
-  position: relative;
-  display: block;
-  margin-bottom: 36px;
-}
-
-.footer-top .contact-widget .single-info-box:last-child{
-  margin-bottom: 0px;
-}
-
-.main-footer .footer-subscribe{
-  position: relative;
-  display: block;
-}
-
-.main-footer .footer-subscribe .text{
-  margin-bottom: 15px;
-}
-
-.main-footer .footer-subscribe h3{
-  position: relative;
-  display: block;
-  font-size: 22px;
-  line-height: 30px;
-  color: #fff;
-  font-weight: 700;
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group{
-  position: relative;
-  margin: 0px;
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group input[type='email']{
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 54px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  padding: 10px 0px;
-  padding-right: 160px;
-  font-size: 17px;
-  color: #ae979f;
-  font-weight: 500;
-  background: transparent;
-  transition: all 500ms ease;
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group input::-webkit-input-placeholder{
-  color:#ae979f;
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group button{
-  position: absolute;
-  top: 9px;
-  right: 0px;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-  background: transparent;
-  cursor: pointer;
-  transition: all 500ms ease;
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group button i{
-  position: relative;
-  font-size: 30px;
-  top: 5px;
-  margin-right: 10px;
-  font-weight: 400;
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group button:hover,
-.main-footer .footer-subscribe .subscribe-form .form-group input:focus + button{
-
-}
-
-.main-footer .footer-subscribe .subscribe-form .form-group input:focus{
-
-}
-
-.footer-bottom{
-  position: relative;
-  padding: 32px 0px;
-}
-
-.footer-bottom .copyright p{
-  font-size: 17px;
-  line-height: 28px;
-  color: #ae979f;
-  font-weight: 500;
-}
-
-.footer-bottom .copyright p a{
-  color: #ae979f;
-}
-
-.footer-bottom .copyright p a:hover{
-
-}
-
-.footer-bottom .footer-nav li{
-  position: relative;
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.footer-bottom .footer-nav li:last-child{
-  margin-right: 0px;
-}
-
-.footer-bottom .footer-nav li a{
-  display: inline-block;
-  font-size: 17px;
-  line-height: 28px;
-  color: #ae979f;
-  font-weight: 500;
-}
-
-.footer-bottom .footer-nav li a:hover{
-
-}
-
-.main-footer .pattern-layer{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: repeat-x;
-  background-position: center;
-  animation: slide 100s linear infinite;
-  -webkit-animation: slide 100s linear infinite;
-}
 
 @keyframes slide{
   from { background-position: 0 0; }
@@ -1814,7 +1563,7 @@ img {
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   line-height: 24px;
   font-weight: 700;
   color: rgba(255,255,255,0.6);
@@ -1922,7 +1671,7 @@ img {
   right: 0px;
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   color: var(--bg-dark);
   text-transform: uppercase;
@@ -1970,7 +1719,7 @@ img {
   display: inline-block;
   font-size: 17px;
   line-height: 28px;
-  font-family: 'Muli', sans-serif;
+ font-family: "Montserrat", serif;
   color: #fff;
   font-weight: 500;
   text-align: center;
@@ -2151,7 +1900,7 @@ img {
   content: '+';
   font-size: 24px;
   color: var(--bg-dark);
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", serif;
   font-weight: 600;
   width: 60px;
   height: 100%;
