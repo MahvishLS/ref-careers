@@ -1,9 +1,9 @@
-#header {
-    background-color: var(--primary-theme-color);
+*{
+    box-sizing: border-box;
 }
 
-.navbar-toggler {
-    border-color: var(--secondery-theme-color) !important;
+#header {
+    background-color: var(--primary-theme-color);
 }
 
 .btn-primary-bg,
@@ -59,6 +59,9 @@
 .btn-lg-secondery,
 .navbar-light .navbar-nav .nav-link {
     color: var(--white-color);
+}
+.navbar-toggler{
+    border: transparent;
 }
 
 .bg-black {
@@ -260,7 +263,7 @@
 .navbar-toggler-icon {
     height: 2px;
     display: table;
-    margin: 6px 0
+    margin: 6px 0;
 }
 
 /*====================================================================
@@ -514,7 +517,7 @@ Home Page 1 Css Start
         padding: 10px 0 !important
     }
 
-    .header-1 .navbar-light .navbar-toggler {
+    .header-1 .navbar-light  {
         border-color: rgba(255, 255, 255, 0.5);
     }
 
@@ -550,15 +553,13 @@ Home Page 1 Css Start
         overflow-x: scroll
     }
 
-    .navbar-toggler.navbar-toggler-right {
-        background: rgba(255, 255, 255, .7);
-    }
+    
 
     .footer-widget {
         margin-bottom: 50px
     }
 
-    .header-3 .navbar-light .navbar-toggler {
+    .header-3 .navbar-light {
         border-color: rgba(9, 67, 160, 0.5)
     }
 
@@ -568,7 +569,10 @@ Home Page 1 Css Start
 
 }
 
-
+.navbar-toggler-icon
+{
+    background-color: var(--secondery-theme-color) !important;
+}
 
 
 @media screen and (min-width:992px) {
@@ -785,14 +789,30 @@ footer h4{
     text-align: center;
     font-size: 16px;
     line-height: 45px;
+    width: 45px;
     color: white;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+.social-media li{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media li i{
+    
+    width: max-content;
 }
 
 .social-media{
     list-style: none;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    
 }
 
 .m-auto{

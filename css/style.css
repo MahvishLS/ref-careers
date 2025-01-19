@@ -777,7 +777,6 @@ img {
 }
 
 
-
 #content_block_4 .content-box .inner-box .single-item .inner h3:before{
   position: absolute;
   content: '';
@@ -788,12 +787,9 @@ img {
   transition: all 500ms ease;
 }
 
-
-
 #content_block_4 .content-box .sec-title{
   margin-bottom: 43px;
 }
-
 
 #content_block_5 .content-box .inner-box .single-item{
   position: relative;
