@@ -410,4 +410,54 @@
   .single-job-post .job-header .number{
     margin-top: 5px;
   }
+
+  .single-item span{
+    display: none;
+  }
+  .single-item h3{
+    padding-left: 0      !important;
+  }
+  .chooseus-block h3{
+    font-size: 18px      !important;
+  }
+  .chooseus-block .inner-box{
+    height: 200px   !important; 
+    margin-bottom: 60pxpx    !important;
+    box-sizing: border-box;
+    padding: 15px 30px;
+  }
+}
+
+@media (min-width: 1200px){
+  #content_block_4 .content-box .inner-box .single-item:hover .inner h3 a i{
+    opacity: 1;
+  }
+
+  #content_block_5 .content-box .inner-box .single-item:hover .inner h3:before{
+    opacity: 0;
+  }
+
+  #content_block_5 .content-box .inner-box .single-item:hover .inner h3 span{
+    opacity: 0;
+  }
+  
+  #content_block_5 .content-box .inner-box .single-item:hover .inner h3{
+    padding-left: 0px;
+  }
+
+  #content_block_5 .content-box .inner-box .single-item:hover .inner h3 a i{
+    opacity: 1;
+  }
+
+  #content_block_4 .content-box .inner-box .single-item:hover .inner h3:before{
+    opacity: 0;
+  }
+
+  #content_block_4 .content-box .inner-box .single-item:hover .inner h3 span{
+    opacity: 0;
+  }
+  
+  #content_block_4 .content-box .inner-box .single-item:hover .inner h3{
+    padding-left: 0px;
+  }
 }
